@@ -31,8 +31,8 @@ data: [
 400,
 441
 ],
-time_taken in nano seconds: 6000000,
-time_taken in milli seconds: 6
+time_taken in nano seconds: 4000000,
+time_taken in milli seconds: 4
 }
 ```
 
