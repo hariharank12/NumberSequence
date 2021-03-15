@@ -2,7 +2,7 @@
 .
 
 ## Design Conventions
-* Uses Java8 streams API lazy sequences and SpringBoot 2 for REST implementation.
+* Uses Java8 monadic expressions to generate sequence and SpringBoot 2 for REST implementation.
 * Choice of build tool is Maven because of first class IDE support.
 * Application has a context path NumberSequence and runs on port 5000. Incase of Docker, it has to be mapped to host port. 
 * A Domain Driven design with multilayered architecture.
@@ -14,7 +14,8 @@
 * docker run -p 8080:5000 hariharank12/numbersequence:1.0-SNAPSHOT
 
 ## Endpoints and sample responses
-* Get all orders - GET http://localhost:5000/NumberSequence/numbers
+* Get all orders - GET http://localhost:8080/NumberSequence/numbers
+* AWS End point - http://ec2-3-15-238-232.us-east-2.compute.amazonaws.com/NumberSequence/numbers
 
 ######RESPONSE
 ```
